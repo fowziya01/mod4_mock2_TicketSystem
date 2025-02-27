@@ -3,7 +3,7 @@ const dotenv = require("dotenv");
 const connectToDb = require("./config/db");
 const userRoutes = require("./routes/userRoutes");
 const adminRoutes = require("./routes/adminRoutes");
-const loggerMiddleware = require("../middleware/loggerMiddleware");
+const loggerMiddleware = require("./middleware/loggerMiddleware");
 
 dotenv.config();
 const app = express();
